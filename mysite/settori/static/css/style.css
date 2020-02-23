@@ -1,0 +1,136 @@
+.navbar-default
+{
+    background-color: #ffe066;
+    background-image: none;
+    color: black;
+    font-family: 'Abhaya Libre', serif;
+    font-size: larger;
+}
+
+.navbar-default .navbar-brand {
+    color: black;
+}
+.navbar-default .navbar-nav > li > a {
+    color: black;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: red;
+}
+.navbar-default .navbar-nav > .active  {
+    color: black;
+    background: #ffeb9e;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+    color: red;
+    background-color: #ffeb9e;
+}
+
+
+#logo {
+  max-width: 80px;
+  height: 80px;
+  display: block;
+  margin-bottom: 10px;
+  float: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/* Footer */
+.footer{
+    position: relative;
+    bottom:0;
+    background-color: #1e1e1e;
+    width: 100%;
+    color:#ff5d61;
+    font-family: 'Abhaya Libre', serif;
+    font-size: larger;
+}
+
+.footer h2{
+    color:#ff5d61;
+}
+
+.footer a{
+    color:#ff5d61;
+}
+
+
+/* Body */
+
+.body{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #77e679;
+    font-family: 'Abhaya Libre', serif;
+    font-size: larger;
+}
+
+.body h1{
+    text-align: center;
+}
+
+.body a{
+    color: #ff5d61;
+}
+
+.header-card{
+    background-color: #1e1e1e;
+    color: #f25f5c;
+}
+
+#container{
+    background-color: #1e1e1e;
+    margin: auto;
+    color: #ff5d61;
+    font-family: 'Abhaya Libre', serif;
+}
+
+#profilo {
+  max-width: 500px;
+  height: 500px;
+  display: block;
+  margin-bottom: 10px;
+  float: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#slider {
+  max-width: 800px;
+  max-height: 1000px;
+  display: block;
+  margin-bottom: 10px;
+  float: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#titolo-sez{
+    color: black;
+    align: center;
+}
+
+.subfooter{
+    background-color: #494949;
+    color: #ff5d61;
+    font-family: 'Abhaya Libre', serif;
+    position: relative;
+;
+    width: 100%;
+}
+
+#text-subfooter{
+    justify-content: center;
+}
+
+#text-subfooter a{
+    color: #77e679;
+    text-decoration: underline;
+}

@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+
+
+{% block content %}
+
+<div class="body">
+
+    {% load static  %}
+
+    <img id="logo" src="{% static 'img/tools.png' %}"/>
+    <div id="titolo-sez">
+        <h1>Lavori</h1>
+    </div>
+
+{% for i in lavori %}
+
+<div class="col-md">
+     <div class="card-header"> <strong>{{i.anno}} | {{ i.committente }}</strong></div>
+     <div class="card-body">
+         {{ i.titolo|linebreaksbr }}
+     </div>
+</div>
+
+
+{% endfor %}
+
+</div>
+
+
+{% endblock content %}

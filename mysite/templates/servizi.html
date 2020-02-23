@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+
+
+{% block content %}
+
+
+<div class="body">
+
+    {% load static  %}
+
+    <img id="logo" src="{% static 'img/customer(1).png' %}"/>
+
+    <div id="titolo-sez">
+        <h1>Servizi</h1>
+    </div>
+
+{% for i in servizi %}
+
+<div class="col-md">
+     <div class="card-header"> <strong>{{ i.titolo }}</strong></div>
+     <div class="card-body">
+         {{ i.descrizione|safe }}
+     </div>
+</div>
+
+
+{% endfor %}
+
+
+</div>
+
+{% endblock content %}

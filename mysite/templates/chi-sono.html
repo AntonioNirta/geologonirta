@@ -1,0 +1,33 @@
+{% extends 'base.html' %}
+
+
+{% block content %}
+
+<div class="body">
+
+{% load static  %}
+
+<img id="logo" src="{% static 'img/employee.png' %}" width="80" height="80" />
+
+<div id="titolo-sez">
+    <h1>Chi sono</h1>
+</div>
+
+
+    {% for i in membro %}
+
+
+        {{i.descrizione|safe}}
+
+
+    {% endfor %}
+
+<img id="profilo" src="{% static 'img/foto-profilo.jpg' %}" alt="geologo antonio nirta"/>
+
+</div>
+
+
+
+
+
+{% endblock content %}
